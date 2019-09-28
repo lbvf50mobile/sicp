@@ -20,8 +20,16 @@
     (else x)
 
 ))
-
-
 (abs1 1)
 (abs1 -1)
 (abs1 0)
+
+"if"
+
+(define (abs2 x) (if (< x 0) (- x) x)
+)
+
+
+(abs2 1)
+(abs2 -1)
+(abs2 0)
