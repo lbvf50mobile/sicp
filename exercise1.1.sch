@@ -1,5 +1,5 @@
 #lang sicp
-; I add 2 errors in this test.
+; I add 2 errors in this test. 8/10 are correct.
 10
 (+ 5 3 4) ; 12
 (- 9 1) ; 8
